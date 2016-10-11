@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		
+		
+	</head>
+	<body class="container ">
+		<div class="row one">
+			<div class="col-md-3 left " >
+				<div class="text-center">
+					<img class="img-rounded img-thumbnail text-center img" src="img/QQ图片20151104194339.jpg"/>
+					<img class="img-rounded img-thumbnail text-center img" src="img/20140831234711_cGxfx.thumb.700_0.jpeg"/>
+					
+				</div>
+				
+				<div class="personMessage ">
+					<p class="label-success text-center">个人信息</p>
+					<p class="glyphicon glyphicon-user ">&nbsp;年龄：23</p>
+					<p class="glyphicon glyphicon-map-marker ">&nbsp;地址：山东省烟台市莱山区</p>
+					<p class="glyphicon glyphicon-phone ">&nbsp;电话：1886555555</p>					
+					<p class="glyphicon glyphicon-envelope ">&nbsp;邮箱：54888777@qq.com</p>
+					
+				</div>
+				<div class="interest ">
+					<p class="label-danger text-center">个人爱好</p>
+					<div class="row">
+						<div class="col-md-6">
+							<p class="glyphicon glyphicon-tower">&nbsp;游戏</p>
+							
+						</div>
+						<div class="col-md-6">
+							<p class="glyphicon glyphicon-book">&nbsp;小说</p>
+							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<p class="glyphicon glyphicon-film">&nbsp;动画</p>
+							
+						</div>
+						<div class="col-md-6 ">
+							<p class="glyphicon glyphicon-music">&nbsp;音乐</p>
+						
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-9 right">
+				<header class="page-header">
+					<h1>王浩鹏</h1>
+					<h4>求职目标：前端工程师</h4>
+				</header>
+				<div class="myselfme">
+					<h3>具体信息</h3>
+					<table class="table text-center  table-bordered">
+						<tr>
+							<td>性别：男</td>
+							
+							<td>民族：汉</td>
+							
+							<td>出生日期：1994.2</td>
+							
+						</tr>
+						<tr>
+							<td>籍贯：山东潍坊</td>
+							
+							<td>专业：计算机科学与技术</td>
+							
+							<td>学历：本科</td>
+							
+						</tr>
+					</table>
+				</div>
+				<div class="school">
+					<h3>教育背景</h3>
+					<ul>
+						<li>时间：2013年-今</li>
+						<li>学校：烟台大学</li>
+						<li>课程：C语言，数据结构，计算机组成原理，编译原理，软件工程等</li>
+						<li>技能：熟练Javascript，熟练css，了解网页编辑流程，熟练jequary，熟练bootstrap，熟练使用码云、github。</li>
+					</ul>
+				</div>
+				<div class="myself">
+					<h3>自我评价</h3>
+					<ul>
+						<li>待人友好，为人诚实谦虚。</li>
+						<li>性格内敛，工作踏实，不爱张扬。</li>
+						<li>认真负责，能吃苦耐劳，尽职尽责，有耐心</li>
+						<li>忠实诚信，讲原则，说到做到，决不推卸责任。</li>	
+					</ul>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="row two">
+			<header class="page-header">
+					<h1>个人作品</h1>
+					
+			</header>
+			<table class="table table-bordered">
+				<tr>
+					<th>作品</th>
+					<th>简介</th>
+					<th>作品</th>
+					<th>简介</th>
+				</tr>
+				<tr>
+					<td><img src="img/screenshot-127.0.0.1 8020 2016-10-11 19-53-14.png"/></td>
+					<td ><p>这是我仿造的时风集团官网主页，可以实现：某些图片当鼠标放上去的时候变大，某些图片当鼠标放上去时转换成另一张图片，
+					右侧浮动栏，还有导航栏，当鼠标放上去时才会显示的一些下拉列表，某些部位当鼠标放上去时变色。</p>
+						<div class="text-right bto"><a class="btn btn-primary ">点此跳转</a></div>
+					</td>
+					<td><img src="img/screenshot-127.0.0.1 8020 2016-10-11 20-07-06.png"/></td>
+					<td>
+					<p>和上一个网页有相似功能，两者之间可以相互跳转。</p>
+						<div class="text-right bto"><a class="btn btn-primary ">点此跳转</a></div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="img/3dm-01.png"/></td>
+					<td ><img src="img/3dm-2.png" /></td>
+					<td>
+					<p>这是我仿制的3dm的首页，用了图片轮播的技巧。</p>
+						<div class="text-right bto"><a class="btn btn-primary ">点此跳转</a></div>
+					</td>
+					
+				</tr>
+			</table>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var m_l=0;
+		var imgs=document.getElementsByClassName('img');
+		
+				for(var i=0;i<imgs.length;i++){
+					if(i==m_l){	
+						//nowFrame
+						imgs[i].style.display='block';
+					}else{
+						imgs[i].style.display='none';
+					}
+				}
+				setInterval(function(){
+					m_l++;
+					if(m_l>=imgs.length){
+						m_l=0;
+					}
+		
+					for(var i=0;i<imgs.length;i++){
+						if(i==m_l){
+							imgs[i].style.display='block';
+						}else{
+							imgs[i].style.display='none';
+						}
+					}
+				},1500);
+	</script>
+</html>

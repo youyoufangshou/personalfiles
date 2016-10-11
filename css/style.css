@@ -1,0 +1,59 @@
+body{
+	/*background-color: #C0C0C0;*/
+	font-family: "微软雅黑";
+}
+.one .left {
+  background-color: #245269;
+  min-height: 600px;
+  color: white;
+ 
+}
+.lunbo{
+	text-align: center;
+}
+.img{
+	
+	margin-top:40px ;
+	width: 200px;
+	height: 184px;
+	display: none;
+	margin-left: 30px;
+	
+}
+
+.personMessage p:first-child{
+	margin-top: 40px;
+}
+.interest>p:first-child{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.row .right {
+  background-color: #31708F;
+  min-height: 600px;
+}
+/*.page-header{
+	background-color: #ADADAD;
+}*/
+.school,.myself,.myselfme{
+	height:130px;
+	background-color: #ADADAD;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+ h3{
+	margin-left: 10px;
+}
+
+.two{
+	background-color: #2E6DA4;
+	min-height: 400px;
+	color: white;
+}
+.two tr td{
+	width: 200px;
+}
+.two tr td img{
+	width: 200px;
+}
+
