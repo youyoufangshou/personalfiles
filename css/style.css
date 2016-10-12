@@ -46,9 +46,9 @@ body{
 }
 
 .two{
-	background-color: #2E6DA4;
+	background-color: #31708F;
 	min-height: 400px;
-	color: white;
+	color: floralwhite;
 }
 .two tr td{
 	width: 200px;

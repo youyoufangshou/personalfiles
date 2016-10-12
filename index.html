@@ -6,7 +6,10 @@
 		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
-		
+		<link href="css/slider.css" rel="stylesheet" type="text/css" />
+		<script type='text/javascript' src='js/jquery-1.7.2.min.js'></script>
+		<script type='text/javascript' src='js/common.js'></script>
+		<script type='text/javascript' src='js/slider.js'></script>
 		
 	</head>
 	<body class="container ">
@@ -105,7 +108,7 @@
 					<h1>个人作品</h1>
 					
 			</header>
-			<table class="table table-bordered">
+			<!--<table class="table table-bordered">
 				<tr>
 					<th>作品</th>
 					<th>简介</th>
@@ -116,7 +119,7 @@
 					<td><img src="img/screenshot-127.0.0.1 8020 2016-10-11 19-53-14.png"/></td>
 					<td ><p>这是我仿造的时风集团官网主页，可以实现：某些图片当鼠标放上去的时候变大，某些图片当鼠标放上去时转换成另一张图片，
 					右侧浮动栏，还有导航栏，当鼠标放上去时才会显示的一些下拉列表，某些部位当鼠标放上去时变色。</p>
-						<div class="text-right bto"><a class="btn btn-primary ">点此跳转</a></div>
+						<div class="text-right bto"><a class="btn btn-primary" href="http://liudianban.oschina.io/shifeng/html/index.html" target="_blank">点此跳转</a></div>
 					</td>
 					<td><img src="img/screenshot-127.0.0.1 8020 2016-10-11 20-07-06.png"/></td>
 					<td>
@@ -133,7 +136,56 @@
 					</td>
 					
 				</tr>
-			</table>
+			</table>-->
+			
+				<div class="header-content home">
+				<div class="parallax-bg" id="slider-wrap">
+					<div class="slider parallax-bg" id="slider"> 
+						<div class="slider-sections sandbox"> 
+							<section class="first"> 
+								<img alt="Kendo UI" src="images/screenshot-127.0.0.1 8020 2016-10-11 19-53-14.png" class="imgp"/> 
+								<div class="text"> 
+									<h2>时风网页主页</h2>
+									<p class="copy">这是我仿造的时风集团官网主页，可以实现：某些图片当鼠标放上去的时候变大，某些图片当鼠标放上去时转换成另一张图片，
+										右侧浮动栏，还有导航栏，当鼠标放上去时才会显示的一些下拉列表，某些部位当鼠标放上去时变色。</p> 
+									<p class="button">
+										<a href="http://liudianban.oschina.io/shifeng/html/index.html" target="_blank" onclick="_gaq.push(['_trackPageview', 'http://sc.chinaz.com/']);">在此跳转</a> 
+										<!--<a class="dimmed" onclick="_gaq.push(['_trackPageview', 'http://sc.chinaz.com/']);" href="http://sc.chinaz.com/">Learn More</a>-->
+									</p> 
+								</div>
+							</section>
+							<section> 
+								<img src="images/screenshot-127.0.0.1 8020 2016-10-11 20-07-06.png" alt="Kendo UI" class="imgp"/> 
+								
+								<div class="text" style="padding-top: 10px;"> 
+									<h2>时风网页：走近时风界面</h2> 
+									<p class="copy">和上一个网页有相似功能，两者之间可以相互跳转。</p> 
+										<p class="button">
+											<a href="http://liudianban.oschina.io/shifeng/html/走近时风.html" target="_blank" onclick="_gaq.push(['_trackPageview', 'http://sc.chinaz.com/']);">在此跳转</a> 
+											<!--<a class="dimmed" onclick="_gaq.push(['_trackPageview', 'http://sc.chinaz.com/']);" href="http://sc.chinaz.com/">Learn More</a>-->
+										</p> 
+								</div> 
+							</section>
+							<section> 
+								<img src="images/3dm-01.png" alt="Kendo UI" class="imgp1"/> 
+								<img src="images/3dm-2.png" alt="Kendo UI" class="imgp1"/> 
+								
+								<div class="text"> 
+									<h2>3dm首页</h2> 
+									<p class="copy">是我仿制的3dm的首页，与上两个相比多用了图片轮播的技巧。</p> 
+									<p class="button">
+										<a href="http://sc.chinaz.com/" onclick="_gaq.push(['_trackPageview', 'http://sc.chinaz.com/']);">在此跳转</a> 
+										<!--<a class="dimmed" onclick="_gaq.push(['_trackPageview', 'http://sc.chinaz.com/']);" href="http://sc.chinaz.com/">Learn More</a>-->
+									</p> 
+								</div> 
+							</section>
+						</div> 
+					</div> 
+					<a class="slider-prev" href="javascript: void(0)">?</a> 
+					<a class="slider-next" href="javascript: void(0)">?</a>
+				</div>
+			</div>
+			
 		</div>
 	</body>
 	<script type="text/javascript">
